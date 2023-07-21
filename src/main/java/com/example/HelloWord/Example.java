@@ -16,7 +16,7 @@ public class Example {
 	@GetMapping(value= "/getMathods")
 	public String getReq() {
 		return "hello.html";
-	}
+	}// git checking
 
 	@GetMapping(value= "/getM")
 	public ResponseEntity<String>  getModel() {
