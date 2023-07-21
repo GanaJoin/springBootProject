@@ -22,6 +22,8 @@ public class Example {
 	public ResponseEntity<String>  getModel() {
 		return new ResponseEntity<>("hello.html",HttpStatus.BAD_REQUEST);
 	}
+	// git checking anotherbranch
+	
 	
 	@GetMapping(value= "/pathparam")
 	public String Forparam(@PathParam("username") String username , @PathParam("pwd")String pwd) {
